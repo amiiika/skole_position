@@ -1,0 +1,93 @@
+body {
+    background-color:  white;
+    font-size:2vh;
+    font-family: monospace; 
+    color: rgb(54, 51, 50);
+    height: 1820px;
+}
+
+.one{
+    margin-left: 28%;
+    margin-right:28%;
+    font-style: italic;
+}
+header{
+    padding: 5vh;
+    color:rgb(247, 202, 202);
+    background-color: whitesmoke;
+    text-align: center;
+}
+.navbar{
+    background-color:rgb(233, 230, 230);
+    overflow: hidden;
+}
+
+.navbar a{
+    color: rgb(54, 51, 50);
+    padding: 2vh;
+    text-decoration: none;
+    font-size: 2.5vh;
+    font-family: monospace;
+    float: left;
+}
+
+.navbar a.active {
+    background-color: rgb(197, 194, 194) ;
+    color: rgb(54, 51, 50);
+}
+.navbar a:hover {
+    background-color: rgb(247, 202, 202) ;
+    color:  rgb(255, 255, 255);
+}
+
+.wraperdiv {
+    height: 1300px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6 {
+    display: inline-block;
+    background-color:rgb(247, 202, 202);
+    margin-left: 28%;
+    margin-right: 28%;
+    padding: 2vh;
+    box-shadow: 7px 7px 10px rgb(94, 94, 94);
+  }
+
+  h3{
+    font-size: 8vh;
+  }
+
+  .b{
+    margin-left: 15%;
+    margin-right: 15%;
+    align-content: center;
+  }
+
+  .wraper{
+    box-sizing: border-box;
+    display: block;
+    height: 330px;
+    padding: 5vh;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .d1,
+  .d2,
+  .d3 {
+   display: inline-block;
+  }
+
+  .d2:hover{
+    position: absolute;
+    left:50px;
+    top: 450px;
+  }

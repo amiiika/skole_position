@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title> Position</title>
+<link rel="stylesheet" href="../style/style.css">
+<link rel="icon" href="../images/bi.png">
+
+    </head>
+    <body>
+        <div class="navbar"> 
+
+
+            <a class="active" href="index.html">Home</a>
+            <a href="fixed.html">Fixed </a>
+            <a href="sticky.html"> Sticky </a>
+            <a href="absolute.html">Absolute </a>
+            <a href="relative.html">Relative </a>
+    
+    </div>
+    <header> <h3>=elements=</h3> </header>
+        <br>
+        <div class="one">
+            <p> There are five different types of position propetys in HTML. 
+                 It specifies the type of positioning method used for an element: 
+                <li>static</li>
+                <li>fixed</li>
+                <li>sticky</li>
+                <li>absolute</li>
+                <li>relative</li> </p>
+        </div>
+            
+                <div class= "wraperdiv"> 
+            <div class="card2">
+                <h1> position:static;</h1>
+                <p>HTML elements are positioned static by default.
+                    Static positioned elements are not affected by the top, bottom, left, 
+                    and right properties.An element with position: static; is not positioned 
+                    in any special way; it is always positioned according to the normal flow of the page:</p>
+                <p> An element with position: fixed; is positioned relative to the viewport, which means 
+                    it always stays in the same place even if the page is scrolled. The top, right, bottom,
+                     and left properties are used to position the element.</p>
+                
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="card3">
+                     <h1> position:fixed;</h1>
+                <a href="fixed.html">Elements that have position: fixed are immovable and hold the position 
+                    specified by top: bottom: left: right or a combination of these. You can 
+                    use the combinations to specify the size of the element,but if you set all
+                    the attributes (top, bottom, left, right) then you can conflict with values 
+                    ​​you have set on other attributes, such as width and height. These elements will
+                    not scroll with the other elements, and it is a simple attribute to understand
+                    because the attribute is unaffected and overrides most other attributes. You 
+                    use this attribute when you want to fix an attribute in a specific place in 
+                    the document.</a>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="card4">
+                    <h1> position:sticky;</h1>
+                <a href="sticky.html">Elements that have position: sticky actually switches between
+                    position: relative and position: fixed. The element will be
+                    relative to their starting position, they will move to
+                    one of the attributes top: bottom: left: rigth: meet. Then it will
+                    get "sticky" and get stuck. This is quite common to use
+                    on navigation elements / hub bar.</a>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="card5">
+                    <h1> position:absolute;</h1>
+                <a href="absolute.html">Elements that have postion: absolute are positioned in relation to their
+                    nearest positioned ancestor, according to the rules of inheritance. If 
+                    there are no positioned elements in the inheritance order, then it 
+                    relates to < body>'s position and follows the scrolling.</a>
+            </div>  
+            <br>
+            <br>
+            <br>
+            <div class="card6">
+                    <h1> position:relative;</h1>
+                <a href="relative.html">Elemennts that have position: relative Gets its position set in relation to
+                    another element. This means that if an element, a div for example, is position:
+                    fixed, and another element is set inside that div, then the element that is 
+                    relatively will be in the upper left corner of the element that is fixed if 
+                    position is set to top : 0, left: 0 because it means the element is offset 0 
+                    pixels from the top, and 0 pixels from the left. This is commonly used on 
+                    curtain menus, or drop-down menus as they are called in English.</a>
+
+                    <style>
+                        a{
+                            text-decoration: none;
+                            color:  rgb(54, 51, 50);
+                        }
+
+                        a:hover{
+                            color:  white; 
+                        }
+                    </style>
+            </div>   
+        </div>     
+        
+    </body>
+     
+</html>
